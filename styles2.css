@@ -13,3 +13,35 @@ html,body{
     justify-content: center;
 
 }
+#largebox{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    flex-direction: column;
+    height: 70%;
+    width: 30%;
+    border-radius: 8px;
+    gap: 30%;
+    
+    
+}
+.text p{
+    height: 50px;
+    font-weight: 600;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+#text1{
+    font-size: 45px;
+    text-align: center;
+    height: 55px;
+    font-weight: 500;
+    
+}
